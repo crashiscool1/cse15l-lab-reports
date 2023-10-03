@@ -1,7 +1,8 @@
 [Link]([http://a.com](https://cdn.fotofits.com/petzlover/gallery/img/l/chiweenie-dog-845684.jpg)https://cdn.fotofits.com/petzlover/gallery/img/l/chiweenie-dog-845684.jpg)
 **dog**
 *dog*
-![Image](![image](https://github.com/crashiscool1/cse15l-lab-reports/assets/146884037/196a0af2-2eae-4005-8203-bfd6825aafff)
+![Image](![image](![image](https://github.com/crashiscool1/cse15l-lab-reports/assets/146884037/d76f99ed-bb45-452b-badf-933beb0f3328)
+)
 )
 
 
