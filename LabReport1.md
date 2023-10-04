@@ -37,3 +37,43 @@ bash: cd: Hello.java: Not a directory
 - Output is an error
 
 
+ls
+1. 
+
+```
+{
+[user@sahara ~/lecture1]$ ls
+Hello.class  Hello.java  messages  README
+}
+```
+   
+- Working directory was lecture1
+- I got this output because ls listing the files in the lecture1 directory
+- It was not an error
+
+2.
+```
+{
+[user@sahara ~]$ ls lecture1
+Hello.class  Hello.java  messages  README
+}
+```
+- the directory was home
+- I got this because ls with an argument to a path reads the files and folders in that path
+- not an error
+
+
+
+
+
+3. 
+```
+{
+[user@sahara ~/lecture1]$ ls Hello.java
+Hello.java
+}
+```
+
+- Diretory was lecture1 
+- I got this output because i basicly told it to just list the file
+- Output is not an error
