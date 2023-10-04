@@ -1,7 +1,7 @@
 Lab Report 1 
 
 
-cd
+*cd*
 1. ![Image](1.1.PNG)
 
    
@@ -37,7 +37,10 @@ bash: cd: Hello.java: Not a directory
 - Output is an error
 
 
-ls
+*ls*
+
+
+
 1. 
 
 ```
@@ -76,4 +79,58 @@ Hello.java
 
 - Diretory was lecture1 
 - I got this output because i basicly told it to just list the file
+- Output is not an error
+
+*cat*
+1. 
+
+```
+{
+[user@sahara ~/lecture1]$ cat
+      
+
+
+
+^C
+}
+```
+   
+- Working directory was lecture1
+- I got this output because with no argument it just waits for users input
+- It was an error
+
+2.
+```
+{
+[user@sahara ~]$ cat lecture1
+cat: lecture1: Is a directory
+}
+```
+- the directory was home
+- I got this because cat with an argument to a path does nothing
+- was an error
+
+
+
+
+
+3. 
+```
+{
+[user@sahara ~/lecture1]$ cat Hello.java
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+
+public class Hello {
+  public static void main(String[] args) throws IOException {
+    String content = Files.readString(Path.of(args[0]), StandardCharsets.UTF_8);    
+    System.out.println(content);
+  }
+}
+```
+
+- Diretory was lecture1 
+- I got this output because i cat reads the file given in the argument
 - Output is not an error
