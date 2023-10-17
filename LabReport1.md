@@ -86,17 +86,21 @@ Hello.java
 
 ```
 {
+[user@sahara ~]$ cd lecture1
 [user@sahara ~/lecture1]$ cat
-      
-
-
-
-^C
+S
+S
+S
+S
+D
+D
+HWLLO
+HWLLO
 }
 ```
    
 - Working directory was lecture1
-- I got this output because with no argument it just waits for users input
+- I got this output because with no argument it just waits for users input and types out whatever user types in.
 - It was an error
 
 2.
@@ -107,14 +111,18 @@ cat: lecture1: Is a directory
 }
 ```
 - the directory was home
-- I got this because cat with an argument to a path does nothing
-- was an error
+- I got this because cat to a diretory just tells you its a directory
+- This is not an error
 
 
 
 
 
-3. 
+3.   
+
+
+
+
 ```
 {
 [user@sahara ~/lecture1]$ cat Hello.java
@@ -129,7 +137,13 @@ public class Hello {
     System.out.println(content);
   }
 }
+
 ```
+
+
+
+
+
 
 - Diretory was lecture1 
 - I got this output because i cat reads the file given in the argument
