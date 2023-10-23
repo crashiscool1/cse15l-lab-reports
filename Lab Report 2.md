@@ -104,3 +104,10 @@ message is updated to "1. test\n2. How are you"
 ![Image](3-1.png)
 ![Image](3-2.png)
 ![Image](3-3.png)
+
+
+
+3
+
+
+I gained valuable experience in setting up and running a server, including understanding how to implement specific path behaviors. Additionally, I learned the intricacies of connecting to my school's SSH server.
