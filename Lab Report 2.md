@@ -39,7 +39,10 @@ public class StringServer {
 ```
 
  ![Image](2-1.png)
- Method called: handle(HttpExchange t)
+
+
+ 
+Method called: handle(HttpExchange t)
 Relevant arguments:
 t.getRequestURI().getPath() returns /add-message
 t.getRequestURI().getQuery() returns s=test
