@@ -67,3 +67,26 @@ message is updated to "1. test"
 
 
  ![Image](2-2.png)
+
+Method called: handle(HttpExchange t)
+
+
+Relevant arguments:
+
+
+t.getRequestURI().getPath() returns /add-message
+
+
+t.getRequestURI().getQuery() returns s=How%20are%20you
+
+
+Relevant fields:
+
+
+message is "1. test" from the previous request.
+
+
+Changes:
+
+
+message is updated to "1. test\n2. How are you"
