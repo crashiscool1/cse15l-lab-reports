@@ -43,12 +43,27 @@ public class StringServer {
 
  
 Method called: handle(HttpExchange t)
+
 Relevant arguments:
+
+
 t.getRequestURI().getPath() returns /add-message
+
+
 t.getRequestURI().getQuery() returns s=test
+
+
 Relevant fields:
+
+
 message is an empty string at this point.
+
+
 Changes:
+
+
 message is updated to "1. test"
+
+
 
  ![Image](2-2.png)
