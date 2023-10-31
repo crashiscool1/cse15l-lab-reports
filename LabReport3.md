@@ -42,12 +42,42 @@ OK (5 tests)
 ```
 
 
+The symptom:
+
+
+
+
+ ![Image](L3-1.PNG)
 
 
 
 
 
- ![Image](2-1.png)
+Before and After :
+```
+//before
 
+static void reverseInPlace(int[] arr) {
+    
+
+    for(int i = 0; i < arr.length; i = i+1) {
+       
+      arr[i] = arr[arr.length - i -1];
+      
+    }
+  }
+
+//after
+static void reverseInPlace(int[] arr) {
+    int arrt[]=arr.clone();
+
+    for(int i = 0; i < arrt.length; i = i+1) {
+       
+      arr[i] = arr[arr.length - i -1];
+      
+    }
+  }
+```
+The fix adresed the issue that the original array was writing over itself with iteself. i fixed thi by copying the array to a new array and useing that to overwrite the original array.
 
  
