@@ -101,8 +101,8 @@ message is updated to "1. test\n2. How are you"
 
 2
 
-![Image](3-1.png)
-![Image](3-2.png)
+![Image](erm1.png)
+![Image](erm2.png)
 ![Image](3-3.png)
 
 
