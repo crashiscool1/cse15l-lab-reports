@@ -1,4 +1,7 @@
-4. "<up><up><up><up><enter>"
+4. 
+```
+<up><up><up><up><enter>
+```
 
 ![Image](4.1.PNG)
 
