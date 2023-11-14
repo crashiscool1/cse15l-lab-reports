@@ -204,11 +204,11 @@ Output:
 By employing -size +300k, this command identifies files larger than 300 kilabites ./technical. It's useful for managing disk space or locating large files that may need special handling.
 
 
-Exsample 2 Finding empty files.
+Exsample 2 Finding files less than 1 kilibyte.
 
 Input:
 ```
-find ./technical -empty
+find ./technical -size -1k
 
 ```
 
@@ -217,7 +217,7 @@ Output:
 
 ```
 
-Using -empty, this command identifies empty files within ./technical. This can be useful for cleanup tasks or identifying files that may need attention.
+By employing -size -1k, this command identifies files smaller than 1 kilabites ./technical. It's useful for managing disk space or locating large files that may need special handling.
 
 Example 7: Finding and deleting all .txt files.
 Source:https://linuxize.com/post/linux-find-command/
