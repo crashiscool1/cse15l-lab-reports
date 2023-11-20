@@ -19,8 +19,6 @@
 ![Image](4.3.PNG)z
 
 <up><up><up><up><enter>
-
-8.
 :$?1?s/1/2 <Enter>
 :wq <Enter>
 ![Image](4.3.PNG)
