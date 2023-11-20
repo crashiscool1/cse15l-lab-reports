@@ -6,7 +6,7 @@
 ![Image](4.1.PNG)
 
 5.
-~~~ git clone <ctrl><v>~~~
+git clone <ctrl><v>
 ![Image](4.5.PNG)
 
 6.
