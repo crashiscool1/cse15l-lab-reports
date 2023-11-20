@@ -1,7 +1,7 @@
 4. 
-```
+
 <up><up><up><up><enter>
-```
+
 
 ![Image](4.1.PNG)
 
@@ -10,9 +10,9 @@ git clone <ctrl><v>
 ![Image](4.5.PNG)
 
 6.
-```
+
 <up><up><up><up><enter>
-```
+
 ![Image](4.6.PNG)
 
 7.
